@@ -11,7 +11,7 @@ export const AboutDialog = () => {
     <Dialog>
       <DialogTrigger asChild>
         <button aria-label="About">
-          <Info className="w-6 h-6 text-gray-500 hover:text-gray-700 cursor-pointer" />
+          <Info className="w-6 h-6 cursor-pointer" />
         </button>
       </DialogTrigger>
       <DialogContent className="max-w-sm">
